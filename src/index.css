@@ -25,3 +25,34 @@ header > img {
 header > h1 {
     font-weight: 400;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+input.ingredient-input {
+    width: 400px;
+    border: 1px solid #E0E0E0;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button.add-ingredient-button {
+    padding: 10px 20px;
+    background-color: #141413;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
